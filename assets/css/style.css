@@ -1,3 +1,4 @@
+/*General style of code*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,12 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+
+/* Header and top right navigation*/
 .headerIndex {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,41 +22,35 @@ body {
     color: #ffffff;
 }
 
-.headerIndex h1 {
-    display: inline-block;
-    font-size: 48px;
-}
+    .headerIndex h1 {
+        display: inline-block;
+        font-size: 48px;
+    }       
+        .headerIndex h1 #seo {
+        color: #d9dcd6;
+        }
 
-.headerIndex h1 #seo {
-    color: #d9dcd6;
-}
+    .headerIndex div {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+        .headerIndex div ul {
+        list-style-type: none;
+        }
+            .headerIndex div ul li {
+                display: inline-block;
+                margin-left: 25px;
+            }
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
 
-.headerIndex div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
 
-.headerIndex div ul {
-    list-style-type: none;
-}
-
-.headerIndex div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Front leading picture*/
 .primaryImage {
     height: 800px;
     width: 100%;
@@ -59,10 +60,25 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/*First main block in main section*/
+.mainContent {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
+    .mainEngine {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+
+        .float-left {
+            float: left;
+            margin-right: 25px;
+        }
 
 .reputationImage {
     float: right;
@@ -70,11 +86,6 @@ p {
 }
 
 
-.mainContent {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 .Benefits {
     margin-right: 20px;
@@ -135,14 +146,6 @@ p {
     max-width: 150px;
 }
 
-.mainEngine {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 .mainReputation {
     margin-bottom: 20px;
